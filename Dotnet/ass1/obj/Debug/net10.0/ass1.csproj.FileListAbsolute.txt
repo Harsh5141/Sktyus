@@ -1,0 +1,14 @@
+C:\Users\harsh\OneDrive\Desktop\.Net\ass1\bin\Debug\net10.0\ass1.exe
+C:\Users\harsh\OneDrive\Desktop\.Net\ass1\bin\Debug\net10.0\ass1.deps.json
+C:\Users\harsh\OneDrive\Desktop\.Net\ass1\bin\Debug\net10.0\ass1.runtimeconfig.json
+C:\Users\harsh\OneDrive\Desktop\.Net\ass1\bin\Debug\net10.0\ass1.dll
+C:\Users\harsh\OneDrive\Desktop\.Net\ass1\bin\Debug\net10.0\ass1.pdb
+C:\Users\harsh\OneDrive\Desktop\.Net\ass1\obj\Debug\net10.0\ass1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harsh\OneDrive\Desktop\.Net\ass1\obj\Debug\net10.0\ass1.AssemblyInfoInputs.cache
+C:\Users\harsh\OneDrive\Desktop\.Net\ass1\obj\Debug\net10.0\ass1.AssemblyInfo.cs
+C:\Users\harsh\OneDrive\Desktop\.Net\ass1\obj\Debug\net10.0\ass1.csproj.CoreCompileInputs.cache
+C:\Users\harsh\OneDrive\Desktop\.Net\ass1\obj\Debug\net10.0\ass1.dll
+C:\Users\harsh\OneDrive\Desktop\.Net\ass1\obj\Debug\net10.0\refint\ass1.dll
+C:\Users\harsh\OneDrive\Desktop\.Net\ass1\obj\Debug\net10.0\ass1.pdb
+C:\Users\harsh\OneDrive\Desktop\.Net\ass1\obj\Debug\net10.0\ass1.genruntimeconfig.cache
+C:\Users\harsh\OneDrive\Desktop\.Net\ass1\obj\Debug\net10.0\ref\ass1.dll

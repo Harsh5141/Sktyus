@@ -1,0 +1,31 @@
+@model List<MvcDemoApp.Models.Student>
+
+@{
+    ViewData["Title"] = "Student List";
+}
+
+<h2>Student List</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Marks</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.Name</td>
+                <td>@student.Department</td>
+                <td>@student.Marks</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@await Html.PartialAsync("_StudentCount", Model.Count)

@@ -1,0 +1,27 @@
+@model IEnumerable<ass8.Models.Student>
+
+<h2>Student List</h2>
+
+<a asp-action="Create">Add Student</a>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Marks</th>
+        <th>Action</th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>@item.Name</td>
+        <td>@item.Department</td>
+        <td>@item.Marks</td>
+        <td>
+            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+        </td>
+    </tr>
+}
+</table>
