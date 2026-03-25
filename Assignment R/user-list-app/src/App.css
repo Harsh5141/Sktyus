@@ -1,0 +1,131 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+
+/* Main Container */
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form Styling */
+.form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.form input {
+  padding: 10px;
+  width: 200px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+/* Add Button */
+.form button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #667eea;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background: #5a67d8;
+  transform: scale(1.05);
+}
+
+.btn-group {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.delete-btn {
+  background: crimson;
+}
+
+.delete-btn:hover {
+  background: darkred;
+} 
+/* User Card */
+.card {
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 10px;
+  transition: 0.3s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Active User */
+.active {
+  background-color: #e6fffa;
+  border-left: 6px solid #00b894;
+}
+
+/* Inactive User */
+.inactive {
+  background-color: #ffe6e6;
+  border-left: 6px solid #d63031;
+}
+
+.card h3 {
+  margin: 5px 0;
+}
+
+.card p {
+  margin: 4px 0;
+  color: #555;
+}
+
+/* Toggle Button */
+.card button {
+  margin-top: 10px;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background: black;
+  transform: scale(1.05);
+}
+
+/* Empty Message */
+.no-users {
+  font-size: 18px;
+  color: gray;
+  margin-top: 20px;
+}

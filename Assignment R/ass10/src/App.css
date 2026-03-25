@@ -1,0 +1,176 @@
+/* ===== Google Font Style Feel ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  min-height: 100vh;
+}
+
+/* ===== App Container ===== */
+.app {
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+}
+
+.app h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+/* ===== Search & Filter Glass Effect ===== */
+.search-filter {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 35px;
+  flex-wrap: wrap;
+}
+
+.search-filter input,
+.search-filter select {
+  padding: 12px 15px;
+  border-radius: 12px;
+  border: none;
+  width: 240px;
+  font-size: 14px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  transition: 0.3s ease;
+}
+
+.search-filter input::placeholder {
+  color: #eee;
+}
+
+.search-filter input:focus,
+.search-filter select:focus {
+  outline: none;
+  background: white;
+  color: #333;
+  transform: scale(1.05);
+}
+
+/* ===== Product Grid ===== */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+/* ===== Glassmorphism Product Card ===== */
+.product-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  transition: 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Gradient Glow Border */
+.product-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 2px;
+  background: linear-gradient(45deg, #ff6a00, #ee0979, #00c6ff);
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.product-card:hover::before {
+  opacity: 1;
+}
+
+.product-card:hover {
+  transform: translateY(-12px) scale(1.03);
+}
+
+/* Product Image */
+.product-card img {
+  height: 160px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+  transition: 0.4s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.1) rotate(3deg);
+}
+
+/* Title */
+.product-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* Price Badge */
+.product-card .price {
+  background: linear-gradient(45deg, #00c853, #b2ff59);
+  color: #000;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+/* Category */
+.product-card .category {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+/* ===== Add To Cart Button (Optional Upgrade Ready) ===== */
+.product-card button {
+  margin-top: 12px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(45deg, #ff512f, #dd2476);
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.product-card button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, #24c6dc, #514a9d);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .app h1 {
+    font-size: 24px;
+  }
+
+  .search-filter input,
+  .search-filter select {
+    width: 100%;
+  }
+}

@@ -1,0 +1,171 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f9;
+  color: #333;
+}
+
+/* Container */
+.container {
+  padding: 30px;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background: #111827;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #38bdf8;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 25px;
+  padding: 30px;
+}
+
+/* Product Card */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  font-size: 15px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.card p {
+  font-weight: bold;
+  margin: 10px 0;
+  color: #2563eb;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+/* Buttons inside card */
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-cart {
+  background: #16a34a;
+}
+
+.btn-cart:hover {
+  background: #15803d;
+}
+
+.btn:hover {
+  background: #1e40af;
+}
+
+/* Detail Page */
+.detail {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail img {
+  width: 250px;
+}
+
+.detail-info {
+  max-width: 400px;
+}
+
+/* Cart */
+.cart-container {
+  padding: 30px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Loader */
+.loader {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.spinner {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #2563eb;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+
+/* Responsive */
+@media(max-width: 768px){
+  .detail {
+    flex-direction: column;
+  }
+}

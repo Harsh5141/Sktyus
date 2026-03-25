@@ -1,0 +1,21 @@
+body {
+  background-color: #f4f6f9;
+}
+
+.sidebar {
+  width: 250px;
+  min-height: 100vh;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #343a40;
+  border-radius: 5px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.table {
+  background-color: white;
+}
