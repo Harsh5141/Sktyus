@@ -1,0 +1,27 @@
+2026-02-27 10:38:48.865 +05:30 [INF] Notification Background Service Started.
+2026-02-27 10:38:48.954 +05:30 [INF] Background Job Triggered at: "2026-02-27T05:08:48.9524907Z"
+2026-02-27 10:38:48.998 +05:30 [INF] Now listening on: http://localhost:5012
+2026-02-27 10:38:49.028 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-27 10:38:49.030 +05:30 [INF] Hosting environment: Development
+2026-02-27 10:38:49.039 +05:30 [INF] Content root path: C:\Users\harsh\OneDrive\Desktop\Sktyus\Dotnet\Assessment14\BackgroundjobDemo
+2026-02-27 10:38:54.787 +05:30 [INF] Email sent successfully at "2026-02-27T05:08:54.7868865Z"
+2026-02-27 10:38:54.803 +05:30 [INF] SMS sent to +919999999999: Background job executed at 27-02-2026 10:38:54
+2026-02-27 10:38:54.876 +05:30 [INF] SMS sent successfully at "2026-02-27T05:08:54.8766212Z"
+2026-02-27 10:38:54.883 +05:30 [INF] Background Job Completed in 5930.7505 ms
+2026-02-27 10:39:04.914 +05:30 [INF] Background Job Triggered at: "2026-02-27T05:09:04.9142892Z"
+2026-02-27 10:39:09.934 +05:30 [INF] Application is shutting down...
+2026-02-27 10:39:10.116 +05:30 [INF] Email sent successfully at "2026-02-27T05:09:10.1166961Z"
+2026-02-27 10:39:10.119 +05:30 [INF] SMS sent to +919999999999: Background job executed at 27-02-2026 10:39:10
+2026-02-27 10:39:10.120 +05:30 [INF] SMS sent successfully at "2026-02-27T05:09:10.1204163Z"
+2026-02-27 10:39:10.122 +05:30 [INF] Background Job Completed in 5207.835 ms
+2026-02-27 10:41:37.185 +05:30 [INF] Notification Background Service Started.
+2026-02-27 10:41:37.270 +05:30 [INF] Background Job Triggered at: "2026-02-27T05:11:37.2686911Z"
+2026-02-27 10:41:37.277 +05:30 [INF] Now listening on: http://localhost:5012
+2026-02-27 10:41:37.280 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-27 10:41:37.282 +05:30 [INF] Hosting environment: Development
+2026-02-27 10:41:37.284 +05:30 [INF] Content root path: C:\Users\harsh\OneDrive\Desktop\Sktyus\Dotnet\Assessment14\BackgroundjobDemo
+2026-02-27 10:41:43.131 +05:30 [INF] Email sent successfully at "2026-02-27T05:11:43.1315106Z"
+2026-02-27 10:41:43.170 +05:30 [INF] SMS sent to +919999999999: Background job executed at 27-02-2026 10:41:43
+2026-02-27 10:41:43.172 +05:30 [INF] SMS sent successfully at "2026-02-27T05:11:43.1719988Z"
+2026-02-27 10:41:43.173 +05:30 [INF] Background Job Completed in 5904.291 ms
+2026-02-27 10:41:50.973 +05:30 [INF] Application is shutting down...
